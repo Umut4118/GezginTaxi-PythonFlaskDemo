@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+    .ortala{
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:150px;
+		font-size: 20px;
+        font-family: 'Times New Roman';
+        background-color:#2a9cce;
+
+        width: 1200px;
+        height: 500px;
+       text-align:center;
+       padding-top:100px;
+       padding-bottom:5px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body style="background-color: powderblue;">
+<div class="ortala">
+    <form action="/map" method="post">
+
+        <label >Login Success</label><br><br><br>
+        <input type="radio" name="options" id="option1" value="option1"> Car A </input><br><br>
+        <input type="radio" name="options" id="option2" value="option2"> Car B </input><br><br>
+         <label >Date</label><br>
+        <input name="Date"><br><br>
+         <label >Clock</label><br>
+        <input name="Clock"><br><br>
+        <button name="ClockBtn" onclick="move_forward()">Search</button>
+
+
+    </form>
+</div>
+</body>
+</html>
